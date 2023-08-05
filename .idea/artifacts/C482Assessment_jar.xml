@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="C482Assessment:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/C482Assessment_jar</output-path>
+    <root id="archive" name="C482Assessment.jar">
+      <element id="module-output" name="C482Assessment" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../JavaFX Install Files/javafx-sdk-17.0.6/lib/javafx-swt.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../JavaFX Install Files/javafx-sdk-17.0.6/lib/javafx.web.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../JavaFX Install Files/javafx-sdk-17.0.6/lib/javafx.base.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../JavaFX Install Files/javafx-sdk-17.0.6/lib/javafx.fxml.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../JavaFX Install Files/javafx-sdk-17.0.6/lib/javafx.media.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../JavaFX Install Files/javafx-sdk-17.0.6/lib/javafx.swing.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../JavaFX Install Files/javafx-sdk-17.0.6/lib/javafx.controls.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../JavaFX Install Files/javafx-sdk-17.0.6/lib/javafx.graphics.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

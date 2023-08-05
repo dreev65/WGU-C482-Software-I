@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="AddPart" prefHeight="500.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AddPartController">
+   <children>
+      <Label layoutX="110.0" layoutY="80.0" prefHeight="20.0" prefWidth="65.0" text="Add Part">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="150.0" layoutY="150.0" text="ID" />
+      <Label layoutX="150.0" layoutY="180.0" text="Name" />
+      <Label layoutX="150.0" layoutY="210.0" text="Inv" />
+      <Label layoutX="150.0" layoutY="240.0" text="Price/Cost" />
+      <Label layoutX="150.0" layoutY="270.0" text="Max" />
+      <Label fx:id="variableLabel" layoutX="150.0" layoutY="300.0" text="Machine ID" />
+      <Label layoutX="410.0" layoutY="270.0" text="Min" />
+      <Button fx:id="saveButton" layoutX="300.0" layoutY="400.0" mnemonicParsing="false" onAction="#saveButton" text="Save" />
+      <Button fx:id="cancelButton" layoutX="350.0" layoutY="400.0" mnemonicParsing="false" onAction="#cancelButton" text="Cancel" />
+      <RadioButton fx:id="inHouseRadio" layoutX="210.0" layoutY="80.0" mnemonicParsing="false" onAction="#radioSelect" prefHeight="17.0" prefWidth="90.0" text="In-House" />
+      <RadioButton fx:id="outsourcedRadio" layoutX="300.0" layoutY="80.0" mnemonicParsing="false" onAction="#radioSelect" prefHeight="17.0" prefWidth="90.0" text="Outsourced" />
+      <TextField fx:id="idBox" editable="false" layoutX="250.0" layoutY="150.0" />
+      <TextField fx:id="nameBox" layoutX="250.0" layoutY="180.0" />
+      <TextField fx:id="inventoryBox" layoutX="250.0" layoutY="210.0" />
+      <TextField fx:id="priceBox" layoutX="250.0" layoutY="240.0" />
+      <TextField fx:id="maxBox" layoutX="250.0" layoutY="270.0" />
+      <TextField fx:id="minBox" layoutX="440.0" layoutY="270.0" />
+      <TextField fx:id="variableBox" layoutX="250.0" layoutY="300.0" />
+   </children>
+</AnchorPane>
